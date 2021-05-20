@@ -1,67 +1,92 @@
 ---
 title: "Confirm your email address"
 preheader: "Please confirm your email address in order to activate your account"
-bodyClass: bg-gray-100
+bodyClass:
 ---
 
 <extends src="src/layouts/main.html">
   <block name="template">
     <table class="w-full font-sans">
       <tr>
-        <td align="center" class="bg-gray-100">
-          <table class="w-600 sm:w-full">
+        <td align="center" class="">
+          <table class="w-600">
             <tr>
-              <td class="p-48 sm:py-32 sm:px-24 text-center">
-                <a href="https://maizzle.com">
-                  <img src="images/maizzle.png" width="75" alt="Maizzle">
-                </a>
+              <td colspan="2" class="w-1/2" style="padding-top: 5rem">
+                <img class="w-4/5" src="images/maizzle.png" alt="Maizzle">
+              </td>
+              <td colspan="2"  class="w-1/2" style="padding-top: 5rem">
+                <div>901 Apacible Cor. Leon Guinto Streets,</div>
+                <div>Brgy. 676 Zone 073 Ermita Manila</div>
+                <div>Tel Nos.: +632-8521-8999 Fax no.: +632-8521-2490</div>
+                <div>VAT Reg. TIN: 008-944-477-000</div>
               </td>
             </tr>
+            <tr class="text-center text-lg font-semibold">
+              <td colspan="4" style="padding-top: 4rem">Invoice</td>
+            </tr>
+            <tr class="text-center text-lg font-semibold">
+              <td colspan="4" class="pt-8">Joining Fees May 2021</td>
+            </tr>
             <tr>
-              <td align="center" class="sm:px-24">
-                <table class="w-full">
-                  <tr>
-                    <td class="bg-white text-gray-800 text-base text-left p-48 sm:px-24 leading-24 rounded">
-                      <p>Hello,</p>
-                      <p class="text-2xl sm:leading-32 text-black font-semibold m-0 mb-24">Is it you we're looking for?</p>
-                      <p class="m-0 mb-24">Please confirm your email address by clicking the button below:</p>
-                      <div class="leading-full">
-                        <a
-                          href="https://example.com"
-                          class="inline-block py-16 px-24 rounded text-base font-semibold text-center no-underline text-white bg-blue-500 hover:bg-blue-600"
-                        >
-                          <!--[if mso]><i style="letter-spacing: 24px; mso-font-width: -100%; mso-text-raise:30px;">&#8202;</i><![endif]-->
-                          <span style="mso-text-raise: 16px;">Confirm email address &rarr;</span>
-                          <!--[if mso]><i style="letter-spacing: 24px; mso-font-width: -100%;">&#8202;</i><![endif]-->
-                        </a>
-                      </div>
-                      <table class="w-full">
-                        <tr>
-                          <td class="py-32">
-                            <div class="bg-gray-200 h-px leading-px">&zwnj;</div>
-                          </td>
-                        </tr>
-                      </table>
-                      <p class="m-0 mb-16">Not sure why you received this email? Please <a href="https://example.com" class="text-blue-500 underline hover:no-underline">let us know</a>.</p>
-                      <p class="m-0 mb-16">Thanks, <br>The Maizzle Team</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="h-48"></td>
-                  </tr>
-                  <tr>
-                    <td class="text-center text-gray-600 text-xs px-24">
-                      <p class="m-0 mb-4 uppercase">Powered by Maizzle</p>
-                      <p class="m-0 italic">The framework for rapid email prototyping</p>
-                      <p class="cursor-default">
-                        <a href="https://maizzle.com/docs/" class="text-blue-500 no-underline hover:underline">Docs</a> &bull;
-                        <a href="https://github.com/maizzle" class="text-blue-500 no-underline hover:underline">Github</a> &bull;
-                        <a href="https://twitter.com/maizzlejs" class="text-blue-500 no-underline hover:underline">Twitter</a>
-                      </p>
-                    </td>
-                  </tr>
-                </table>
-              </td>
+              <td colspan="4" class="py-10">&nbsp;</td>
+            </tr>
+            <tr>
+              <td colspan="4" class="font-semibold" style="padding-top: 1rem">Mimijoe Manpower and Allied Services</td>
+            </tr>
+            <tr>
+              <td colspan="4" class="pt-12">Agway Warehouse, Km 10, Sasa, 1111, Buenavista, Agusta Del Norte, Mindanao, Philippines</td>
+            </tr>
+            <tr>
+              <td colspan="4" class="font-semibold pt-12">11223444555</td>
+            </tr>
+            <tr>
+              <td colspan="2" class="font-semibold pt-36">Fee Summary</td>
+              <td class="font-semibold text-right  pt-36">Amount(Php)</td>
+              <td class="font-semibold text-right  pt-36">Amount(Php)</td>
+            </tr>
+            <tr>
+              <td colspan="4"><hr class="border-1 border-black bg-black text-black h-px"></td>
+            </tr>
+            <tr>
+              <td class="font-semibold pt-5"><u>Fees:</u></td>
+            </tr>
+            <tr>
+              <td colspan="2" class="w-1/4 pt-10">Joining Fees</td>
+              <td class="w-1/4 text-right pt-10">89,285.71</td>
+              <td class="w-1/4 pt-10"></td>
+            </tr>
+            <tr>
+              <td colspan="2" class="w-1/4 pt-10">Add: VAT @ 12%</td>
+              <td class="w-1/4 text-right pt-10">10,714.29</td>
+              <td class="w-1/4 pt-10"></td>
+            </tr>
+            <tr>
+              <td colspan="2"></td>
+              <td><hr class="border-0 border-black bg-black text-black h-px"></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td class="w-1/4 pt-10">Total Joining Fees</td>
+              <td class="w-1/4 pt-10"></td>
+              <td class="w-1/4 text-right pt-10">100,000.00</td>
+              <td class="w-1/4 pt-10"></td>
+            </tr>
+            <tr>
+              <td colspan="2" class="w-1/4 pt-10">Less: Witholding tax @ 2%</td>
+              <td class="w-1/4 text-right pt-10">1,785.71</td>
+              <td class="w-1/4 pt-10"></td>
+            </tr>
+            <tr>
+              <td colspan="2"></td>
+              <td colspan="2"><hr class="border-0 border-black bg-black text-black h-px"></td>
+            </tr>
+            <tr>
+              <td colspan="2" class="font-semibold pt-10">Net Joining Fees Payable to CMCI</td>
+              <td class="pt-10"></td>
+              <td class="w-1/4 text-right font-semibold pt-10">98,214.29</td>
+            </tr>
+            <tr>
+              <td colspan="4" class="text-center" style="padding-top: 10rem; padding-bottom: 3rem">This is computer generated, no signature required.</td>
             </tr>
           </table>
         </td>
